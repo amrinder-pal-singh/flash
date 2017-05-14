@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.FrontEnd.Web", "Flash.FrontEnd.Web\Flash.FrontEnd.Web.csproj", "{CC1A5192-7215-42DC-815D-D061031BD625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flash.Api", "Flash.Api\Flash.Api.csproj", "{0C839EAE-BF3C-42C0-8EAB-D1116220A3AC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC1A5192-7215-42DC-815D-D061031BD625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1A5192-7215-42DC-815D-D061031BD625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1A5192-7215-42DC-815D-D061031BD625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1A5192-7215-42DC-815D-D061031BD625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C839EAE-BF3C-42C0-8EAB-D1116220A3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C839EAE-BF3C-42C0-8EAB-D1116220A3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C839EAE-BF3C-42C0-8EAB-D1116220A3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C839EAE-BF3C-42C0-8EAB-D1116220A3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
